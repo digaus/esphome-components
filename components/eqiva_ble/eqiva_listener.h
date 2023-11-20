@@ -6,14 +6,14 @@
 #include "esphome/components/esp32_ble_tracker/esp32_ble_tracker.h"
 
 namespace esphome {
-namespace airthings_ble {
+namespace eqiva_ble {
 
-class AirthingsListener : public esp32_ble_tracker::ESPBTDeviceListener {
+class EqivaListener : public esp32_ble_tracker::ESPBTDeviceListener {
  public:
   bool parse_device(const esp32_ble_tracker::ESPBTDevice &device) override;
 };
 
-}  // namespace airthings_ble
+}  // namespace eqiva_ble
 }  // namespace esphome
 
 #endif
